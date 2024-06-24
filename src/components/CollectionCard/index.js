@@ -7,7 +7,7 @@ import "./style.scss";
 const CollectionCard = ({ item, index }) => {
   return (
     <Grid item key={index} xs={3} md={1}>
-      <Link to={`/disney-plus-clone/collection/${item.query}`}>
+      <Link>
         <div className="itemContainer">
           <img src={item.img} alt={item.title} loading="lazy" />
           <video autoPlay loop muted playsInline>

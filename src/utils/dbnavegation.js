@@ -6,20 +6,20 @@ import LocalMoviesOutlinedIcon from "@mui/icons-material/LocalMoviesOutlined";
 import MovieFilterOutlinedIcon from "@mui/icons-material/MovieFilterOutlined";
 
 export const menuItems = [
-  { text: "Home", path: "/disney-plus-clone/", icon: <HomeOutlinedIcon /> },
-  { text: "Search", path: "/disney-plus-clone/search", icon: <SearchIcon /> },
+  { text: "Início", path: "/disney-plus-clone/", icon: <HomeOutlinedIcon /> },
+  { text: "Procurar", path: "/disney-plus-clone/search", icon: <SearchIcon /> },
   {
     text: "Minha Lista",
     path: "/disney-plus-clone/mylist",
     icon: <PlaylistAddIcon />,
   },
   {
-    text: "Files",
+    text: "Filmes",
     path: "/disney-plus-clone/movie",
     icon: <LocalMoviesOutlinedIcon />,
   },
   {
-    text: "Series",
+    text: "Séries",
     path: "/disney-plus-clone/series",
     icon: <MovieFilterOutlinedIcon />,
   },

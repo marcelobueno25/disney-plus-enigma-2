@@ -21,9 +21,7 @@ const Header = () => {
     <AppBar id="headerMain" position="fixed">
       <Container className="headerContainer">
         <Toolbar className="headerToolbar" disableGutters>
-          <Link
-          //to="/disney-plus-clone/"
-          >
+          <Link>
             <Box
               className="headerLogo"
               component="img"
@@ -38,13 +36,7 @@ const Header = () => {
                 sx={{ display: { xs: "none", md: "flex" } }}
               >
                 {menuItems.map((item, index) => (
-                  <Button
-                    className="headerButton"
-                    key={index}
-                    component={Link}
-                    //to={item.path}
-                    //onClick={handleCloseNavMenu}
-                  >
+                  <Button className="headerButton" key={index} component={Link}>
                     {item.icon}
                     <Typography className="headerTypography" variant="subtitle">
                       <span>{item.text}</span>

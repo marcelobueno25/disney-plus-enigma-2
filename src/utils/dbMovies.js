@@ -203,8 +203,8 @@ export const moviesItems = [
     ],
   },
   {
-    title: "Series",
-    category: "Series",
+    title: "Séries",
+    category: "Séries",
     data: [
       {
         id: 1,

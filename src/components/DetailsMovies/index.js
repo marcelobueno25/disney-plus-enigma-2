@@ -9,14 +9,16 @@ const DetailsMovies = ({ data, handleClose }) => {
       <div className="detailMovies" onClick={handleClose}>
         <span className="detailClose">x</span>
         <img src={`${data?.poster_path}`} alt={data?.title} />
-        <Title className="detailMoviesTitle">{data.title}</Title>
-        <Typography
-          className="detailMoviesOverview"
-          variant="h6"
-          sx={{ mt: 2 }}
-        >
-          {data?.overview}
-        </Typography>
+        <div className="detailMoviesTexts">
+          <Title className="detailMoviesTitle">{data.title}</Title>
+          <Typography
+            className="detailMoviesOverview"
+            variant="h6"
+            sx={{ mt: 2 }}
+          >
+            {data?.overview}
+          </Typography>
+        </div>
       </div>
     </Box>
   );

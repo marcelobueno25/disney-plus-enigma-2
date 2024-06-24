@@ -9,20 +9,19 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  padding: 50px 10px;
+  padding: 50px 20px;
   overflow: auto;
+  z-index: 2;
 
   .detailMovies {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: #111;
     max-width: 1000px;
-    padding: 30px 50px;
-    padding-bottom: 80px;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px -5px #7a7a7a;
-    z-index: 10;
+    box-shadow: 0px 0px 30px -5px #5e5e5e;
+    z-index: 3;
 
     .detailClose {
       position: absolute;
@@ -48,19 +47,39 @@
 
     img {
       width: 100%;
+      border-radius: 20px 20px 0 0;
+    }
+
+    .detailMoviesTexts {
+      padding: 30px 50px;
+      padding-bottom: 70px;
       border-radius: 20px;
-      margin-bottom: 10px;
-    }
 
-    .detailMoviesTitle {
-      font-weight: bold;
-      text-align: left;
-    }
+      .detailMoviesTitle {
+        font-weight: bold;
+        text-align: left;
+      }
 
-    .detailMoviesOverview {
-      white-space: pre-line;
-      font-weight: 100;
-      margin: 0;
+      .detailMoviesOverview {
+        white-space: pre-line;
+        font-weight: 100;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .detailMoviesContainer {
+    .detailMovies {
+      .detailMoviesTexts {
+        padding: 7%;
+        padding-bottom: 70px;
+        .detailMoviesTitle,
+        .detailMoviesOverview {
+          text-align: center;
+        }
+      }
     }
   }
 }

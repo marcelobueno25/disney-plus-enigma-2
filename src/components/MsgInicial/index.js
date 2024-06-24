@@ -43,7 +43,7 @@ const MsgInicial = ({ handleClose }) => {
               onClick={handleClose}
               sx={{ marginTop: 3 }}
             >
-              entrar
+              entrar no Mundo Mágico
             </Button>
           </Box>
         </div>

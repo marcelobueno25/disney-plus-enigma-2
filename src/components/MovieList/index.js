@@ -1,13 +1,22 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
+import { Modal } from "@mui/material";
 import { moviesItems } from "../../utils/dbMovies";
 import Title from "../Title";
 import "./style.scss";
+import DetailsMovies from "../DetailsMovies";
 
 const MovieList = () => {
   const [slidesToShow, setSlidesToShow] = useState(2);
+  const [dataItem, setDataItem] = useState({});
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = (item) => {
+    setDataItem(item);
+    setOpen(true);
+  };
+  const handleClose = () => setOpen(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -51,8 +60,8 @@ const MovieList = () => {
     autoplaySpeed: 5000,
     //centerMode: true,
     centerPadding: "5%",
-    swipeToSlide: true,
-    focusOnSelect: true,
+    //swipeToSlide: true,
+    //focusOnSelect: true,
   };
 
   return (
@@ -73,27 +82,30 @@ const MovieList = () => {
                   {category.data && (
                     <Slider className="styledCarousel" {...settings}>
                       {category.data.map((item, index) => (
-                        <Link
-                          //to={`/disney-plus-clone/${category.type}/${item.id}`}
-                          key={index}
-                        >
+                        <div key={index} onClick={() => handleOpen(item)}>
                           <div className="dataContainer" key={index}>
                             <img src={`${item.poster_path}`} alt={item.title} />
                           </div>
-                        </Link>
+                        </div>
                       ))}
                     </Slider>
                   )}
-                  {/* {!category.data && (
-                      <ErrorBlock
-                        message={`Failed to fetch ${category.title} data, please try again later.`}
-                      />
-                    )} */}
                 </div>
               );
             })}
         </>
       </motion.div>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+        style={{ padding: "0 20px" }}
+      >
+        <div>
+          <DetailsMovies data={dataItem} />
+        </div>
+      </Modal>
     </section>
   );
 };

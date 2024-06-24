@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import { Modal } from "@mui/material";
 import { moviesItems } from "../../utils/dbMovies";
 import Title from "../Title";
-import "./style.scss";
 import DetailsMovies from "../DetailsMovies";
+import "./style.scss";
 
 const MovieList = () => {
   const [slidesToShow, setSlidesToShow] = useState(2);
@@ -100,10 +100,9 @@ const MovieList = () => {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
-        style={{ padding: "0 20px" }}
       >
         <div>
-          <DetailsMovies data={dataItem} />
+          <DetailsMovies data={dataItem} handleClose={handleClose} />
         </div>
       </Modal>
     </section>

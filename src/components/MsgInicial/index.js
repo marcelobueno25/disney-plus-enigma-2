@@ -31,8 +31,7 @@ const MsgInicial = ({ handleClose }) => {
               um pedacinho da nossa história ou nos leva a mundos de fantasia e
               histórias engraçadas. <br />
               Tudo aqui foi feito com muito carinho para você, para lembrar o
-              quanto eu te amo. <br />
-              Com todo meu carinho e amor, Marcelo.
+              quanto eu te amo.
             </Typography>
             <Typography variant="h6" sx={{ mt: 5 }}>
               Aperte o botão e deixe a mágica começar!

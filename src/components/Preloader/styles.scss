@@ -1,0 +1,21 @@
+.preLoader {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #040b3e;
+
+  .preContainer {
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+
+    video {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

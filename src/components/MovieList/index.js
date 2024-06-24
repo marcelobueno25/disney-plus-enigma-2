@@ -24,11 +24,8 @@ const MovieList = () => {
       let slidesAmount;
 
       switch (true) {
-        case width <= 400:
-          slidesAmount = 1;
-          break;
         case width <= 600:
-          slidesAmount = 2;
+          slidesAmount = 1;
           break;
         case width <= 900:
           slidesAmount = 2;

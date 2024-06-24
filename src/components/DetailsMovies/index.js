@@ -6,7 +6,8 @@ import "./style.scss";
 const DetailsMovies = ({ data, handleClose }) => {
   return (
     <Box className="detailMoviesContainer" onClick={handleClose}>
-      <div className="detailMovies">
+      <div className="detailMovies" onClick={handleClose}>
+        <span className="detailClose">x</span>
         <img src={`${data?.poster_path}`} alt={data?.title} />
         <Title className="detailMoviesTitle">{data.title}</Title>
         <Typography

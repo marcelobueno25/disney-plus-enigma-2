@@ -71,8 +71,8 @@ const MovieList = () => {
         <>
           {moviesItems &&
             moviesItems?.map((category) => {
-              return (
-                <div key={category.category}>
+              return category.data.length >= 3 ? (
+                <div key={category.title}>
                   <Title style={{ margin: "0 10px 15px" }}>
                     {category.title}
                   </Title>
@@ -88,6 +88,8 @@ const MovieList = () => {
                     </Slider>
                   )}
                 </div>
+              ) : (
+                <></>
               );
             })}
         </>

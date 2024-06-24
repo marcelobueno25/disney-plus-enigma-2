@@ -1,0 +1,44 @@
+.msgMoviesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 50px 20px;
+  overflow: auto;
+  z-index: 2;
+
+  .msgMovies {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px -5px #5e5e5e;
+    z-index: 3;
+
+    .msgMoviesTexts {
+      padding: 70px 50px;
+      border-radius: 20px;
+      color: #111;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .msgMoviesContainer {
+    .msgMovies {
+      .msgMoviesTexts {
+        padding: 7%;
+        padding-bottom: 70px;
+        text-align: center;
+      }
+    }
+  }
+}

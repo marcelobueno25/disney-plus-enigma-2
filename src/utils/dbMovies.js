@@ -1,7 +1,108 @@
 export const moviesItems = [
   {
+    title: "Recomendações",
+    data: [
+      {
+        id: 8,
+        title: "Eternizar - Um Amor que Transcende o Tempo",
+        poster_path: "./images/filmes/8.png",
+        overview:
+          "Em um mundo mágico, vivia Sabrina, uma menina curiosa com um sonho: viajar no tempo. \n Um dia, encontrou um antigo relógio dourado escondido em seu sótão. \n Ao tocá-lo, Sabrina foi transportada para uma época distante, onde conheceu Marcelo, um aventureiro de olhos brilhantes. \n Juntos, exploraram florestas encantadas, navegaram em mares tempestuosos e enfrentaram perigos inimagináveis. \n Entre risadas e confidências, um amor puro e sincero floresceu entre eles. \n Mas, o tempo inexorável os chamava de volta. \n Ao se despedirem, Sabrina e Marcelo prometeram nunca se esquecer. \n De volta ao seu tempo, Sabrina guardou as memórias no coração e, com o relógio dourado em mãos, viajava secretamente para reencontrar seu amado Marcelo em diferentes eras. \n Através do tempo, seu amor se fortaleceu, desafiando as leis da física e da lógica. \n E assim, Sabrina e Marcelo provaram que o amor verdadeiro é capaz de eternizar-se, transcendendo o tempo e unindo almas em uma aventura sem fim.",
+      },
+      {
+        id: 12,
+        title: "Liberdade - Os Perrengues de Morar Sozinha",
+        poster_path: "./images/filmes/12.png",
+        overview:
+          "Sabrina, uma adolescente cheia de sonhos e desejos, se sente presa pelas regras chatas dos seus pais.  \n  Ela sonha com liberdade, com poder fazer suas próprias escolhas e viver a vida do seu jeito.  \n Cansada de tanta mesmice, decide um plano audacioso: fugir de casa e morar sozinha! Mas será que a vida independente é tudo aquilo que Sabrina imagina?  \n Prepare-se para uma comédia hilária que mostra os perrengues que a esperam nessa nova aventura.  \n Descubra se ela vai conseguir lidar com as tarefas domésticas, cozinhar suas próprias refeições e, o mais importante, lidar com a solidão. \n \n Liberdade: Os Perrengues de Morar Sozinha é uma história divertida e emocionante que vai te fazer rir e refletir sobre os desafios e alegrias de ser independente.",
+      },
+      {
+        id: 30,
+        title: "Elemental",
+        poster_path: "./images/filmes/30.png",
+        overview:
+          "Em Elementalis, cidade mágica, vivia Sabrina, água com cabelos azuis e sorriso tranquilo como o mar. \n Lá também morava Marcelo, fogo com cabelos cor de chama e espírito quente como o sol. \n Desde pequenos, se sentiam próximos, como se suas naturezas opostas se completassem. \n Mas seus pais discordavam: 'Água e fogo não combinam!'. \n Mesmo assim, Sabrina e Marcelo se encontravam em segredo, dividindo histórias, sonhos e um sentimento que crescia cada vez mais. \n Juntos, descobriram que o amor verdadeiro supera qualquer diferença. \n Com o tempo, a paixão deles aqueceu os corações das pessoas. \n Todos perceberam que a união dos elementos era a força e beleza de Elementalis. \n No final, entenderam que o amor verdadeiro não tem limites. \n Sabrina e Marcelo viveram felizes para sempre, unindo seus elementos e iluminando a cidade com a chama do amor.",
+      },
+      {
+        id: 4,
+        title: "Crepúsculo",
+        poster_path: "./images/series/4.png",
+        overview:
+          "Sabrina, estudante de Designer, sempre se sentiu atraída pelo mistério. \n Na aula de Fundamentos do Design, seus olhos se fixaram em Marcelo, um aluno novo de corpo atlético e olhos pretos que hipnotizavam. \n Um fascínio inexplicável a dominou. Marcelo era enigmático, envolto em um halo de perigo. \n Sabrina o flagrava em situações estranhas, sempre sozinho, sempre na penumbra. \n A cada encontro furtivo em bibliotecas ou no bosque atrás da faculdade, a tensão entre desejo e receio crescia. \n Em uma noite de luar, sob a luz crepuscular, Marcelo revelou sua verdadeira natureza: um vampiro.  \n Horrorizada, Sabrina se viu dividida entre o medo e a paixão avassaladora que ele despertava. \n \n Poderia o amor florescer entre a humana e um vampiro?",
+      },
+      {
+        id: 6,
+        title: "Bridgerton",
+        poster_path: "./images/series/6.png",
+        overview:
+          "Sabrina, herdeira da rica família Bridgerton, passeava a cavalo por seus domínios quando um obstáculo a fez cair. \n Machucada e atordoada, ela foi amparada por Marcelo, um jovem mecânico que consertava seu carro velho nas proximidades. \n A química entre os dois foi instantânea, apesar da óbvia disparidade social. Noites de encontros secretos se tornaram rotina, regadas por conversas sussurradas e carícias roubadas. \n O amor florescia em segredo, desafiando as expectativas da sociedade Bridgerton. \n Em um momento de paixão avassaladora, entregaram-se ao desejo em meio aos fardos de feno do estábulo, seus corpos se unindo em uma dança proibida de amor e luxúria. \n Descobertos pelos pais de Sabrina, o romance foi proibido. \n Mas o amor era mais forte que as convenções. \n Sob a luz prateada da lua, os dois amantes fugiram, deixando para trás a opulência e as regras sufocantes da alta sociedade. \n Juntos, construíram uma vida simples, onde o amor e a liberdade reinavam. \n A riqueza de Sabrina não era mais necessária, pois a verdadeira riqueza era o amor que os unia. \n E assim, viveram felizes para sempre, provando que o amor verdadeiro transcende todas as barreiras, até mesmo as da própria Bridgerton.",
+      },
+      {
+        id: 3,
+        title: "Princesa Sabrina",
+        poster_path: "./images/series/3.png",
+        overview:
+          "No alto das montanhas nevadas, erguia-se o imponente Castelo de Gelo, lar da Princesa Sabrina. \n Seus cabelos brancos como a neve e olhos azuis como o gelo refletiam a gélida beleza de suas terras. \n Apesar da realeza e do conforto, um frio pungente apertava seu coração. \n Sabrina ansiava por calor, por um raio de sol que derretesse a neve que cobria seu reino e libertasse seu povo do inverno eterno. \n Em uma noite de lua cheia, guiada por um antigo mapa, Sabrina partiu em busca da lendária Chama Eterna, a única capaz de aquecer seu reino. \n Através de florestas congeladas e cavernas escuras, enfrentou criaturas gélidas e tempestades de neve, com a chama da esperança a aquecendo por dentro. \n Finalmente, após árdua jornada, Sabrina encontrou a Chama Eterna. Com um toque, acendeu a tocha que carregava e retornou ao seu castelo. \n A cada passo, o gelo derretia, flores desabrochavam e o sol brilhava pela primeira vez em séculos. \n O povo de Sabrina se regozijava, saudando-a como a princesa que trouxe a primavera de volta ao reino.",
+      },
+      {
+        id: 1,
+        title: "Witch Loki",
+        poster_path: "./images/filmes/1.png",
+        overview: [
+          "Sabrina, uma agente da TVA presa em um universo paralelo, logo se depara com a verdade: ela é a Variante Loki, uma feiticeira poderosa com um passado sombrio e um destino incerto. \n Assim como seu homólogo divino, Sabrina se vê em meio a uma conspiração que ameaça a realidade e precisa usar seus poderes e trapaças para sobreviver e navegar por esse novo mundo.\n \n Em breve, Sabrina descobrirá que sua magia e identidade estão entrelaçadas com o destino do multiverso.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Bombando",
+    data: [
+      {
+        id: 6,
+        title: "Bridgerton",
+        poster_path: "./images/series/6.png",
+        overview:
+          "Sabrina, herdeira da rica família Bridgerton, passeava a cavalo por seus domínios quando um obstáculo a fez cair. \n Machucada e atordoada, ela foi amparada por Marcelo, um jovem mecânico que consertava seu carro velho nas proximidades. \n A química entre os dois foi instantânea, apesar da óbvia disparidade social. Noites de encontros secretos se tornaram rotina, regadas por conversas sussurradas e carícias roubadas. \n O amor florescia em segredo, desafiando as expectativas da sociedade Bridgerton. \n Em um momento de paixão avassaladora, entregaram-se ao desejo em meio aos fardos de feno do estábulo, seus corpos se unindo em uma dança proibida de amor e luxúria. \n Descobertos pelos pais de Sabrina, o romance foi proibido. \n Mas o amor era mais forte que as convenções. \n Sob a luz prateada da lua, os dois amantes fugiram, deixando para trás a opulência e as regras sufocantes da alta sociedade. \n Juntos, construíram uma vida simples, onde o amor e a liberdade reinavam. \n A riqueza de Sabrina não era mais necessária, pois a verdadeira riqueza era o amor que os unia. \n E assim, viveram felizes para sempre, provando que o amor verdadeiro transcende todas as barreiras, até mesmo as da própria Bridgerton.",
+      },
+      {
+        id: 11,
+        title: "RESTART - Together Forever",
+        poster_path: "./images/series/11.png",
+        overview:
+          "Sabrina e Marcelo, após superarem as dificuldades, celebram o Ano Novo em um chalé aconchegante. \n A música da Restart embala a noite enquanto relembram momentos marcantes. \n Na virada do ano, selam seu amor com um beijo apaixonado. \n Marcelo, aproveitando a ocasião, faz um pedido de namoro especial, com anel e tudo mais. \n Sabrina, emocionada, aceita e eles se declaram um para o outro. \n Sob a luz das estrelas e a neve caindo, selam seu amor para sempre, prontos para construir uma vida juntos, repleta de amor, companheirismo e superação. \n \n A música da Restart continua sendo a trilha sonora de sua história, um lembrete da força do amor que os uniu e que os guiará para sempre.",
+      },
+      {
+        id: 13,
+        title: "Stranger Things 2",
+        poster_path: "./images/series/13.png",
+        overview:
+          "Um ano se passou. \n A vida em Hawkins parece ter voltado ao normal, mas a calma é enganosa. \n Uma nova ameaça surge: a mente colmeia, um monstro que busca consumir tudo em seu caminho. \n Sabrina e Marcelo, agora mais experientes, lideram a resistência contra a criatura, enquanto desvendam os segredos obscuros do laboratório e a origem dos seus poderes. \n Lays, utilizando suas habilidades de hacker, intercepta mensagens do governo e desvenda pistas cruciais para deter a mente colmeia. \n Arthur, com sua lealdade e espírito de equipe, une o grupo e os motiva a seguir em frente, mesmo diante dos perigos.",
+      },
+      {
+        id: 7,
+        title: "Meu Primeiro Dia",
+        poster_path: "./images/filmes/7.png",
+        overview:
+          "Sabrina, patricinha rebelde e acostumada com a vida mimada, ingressa na prestigiada Universidade Imperial. \n O choque de realidade a atinge em cheio: colegas de diferentes classes sociais, professores exigentes e regras rígidas a desafiam. \n Entre a rebeldia e a necessidade de se adaptar, Sabrina terá que enfrentar seus próprios preconceitos e descobrir que a vida universitária é muito mais do que festas e curtição.",
+      },
+      {
+        id: 17,
+        title: "Django",
+        poster_path: "./images/filmes/17.png",
+        overview:
+          "Em um Brasil dominado por coronéis brutais, Marcelo, um ex-escravo em busca de vingança, une forças com a pistoleiro Toba e o sábio Zé Cueca. \n Juntos, cruzam o sertão em busca do cruel latifundiário Hemorroida-Branca, que aterroriza a região com seus capangas. \n Entre tiroteios épicos, fugas mirabolantes e reviravoltas inesperadas, Djangao busca justiça e liberdade para todos os oprimidos, nesse faroeste brasileiro regado a ação, humor e muito sangue.",
+      },
+      {
+        id: 2,
+        title: "Love of Thrones - Coração de Fogo",
+        poster_path: "./images/series/2.png",
+        overview:
+          "Anos se passam e Sabrina e para sua surpresa, o ovo eclode e revela um filhote de dragão azul marrom, que ela batiza de Maya. \n Juntas, Sabrina e Maya embarcam em uma aventura pelo mundo, explorando terras desconhecidas e enfrentando desafios emocionantes.",
+      },
+    ],
+  },
+  {
     title: "Filmes",
-    category: "Filmes",
     data: [
       {
         id: 1,
@@ -83,10 +184,10 @@ export const moviesItems = [
       },
       {
         id: 12,
-        title: "Princesa sabrina",
+        title: "Liberdade - Os Perrengues de Morar Sozinha",
         poster_path: "./images/filmes/12.png",
         overview:
-          "Sabrina, a princesa de coração valente, e seu fiel companheiro Lua, um gatinho travesso, embarcam em uma jornada épica! \n Juntos, eles desbravam florestas encantadas, escalam montanhas altíssimas e desvendam segredos ancestrais. \n Prepare-se para muita ação, amizade e momentos hilários nessa aventura inesquecível!",
+          "Sabrina, uma adolescente cheia de sonhos e desejos, se sente presa pelas regras chatas dos seus pais.  \n  Ela sonha com liberdade, com poder fazer suas próprias escolhas e viver a vida do seu jeito.  \n Cansada de tanta mesmice, decide um plano audacioso: fugir de casa e morar sozinha! Mas será que a vida independente é tudo aquilo que Sabrina imagina?  \n Prepare-se para uma comédia hilária que mostra os perrengues que a esperam nessa nova aventura.  \n Descubra se ela vai conseguir lidar com as tarefas domésticas, cozinhar suas próprias refeições e, o mais importante, lidar com a solidão. \n \n Liberdade: Os Perrengues de Morar Sozinha é uma história divertida e emocionante que vai te fazer rir e refletir sobre os desafios e alegrias de ser independente.",
       },
       {
         id: 13,
@@ -200,11 +301,24 @@ export const moviesItems = [
         overview:
           "Sabrina, garçonete em um charmoso diner dos anos 60, se encanta com o Marcelo, um cliente misterioso de sorriso cativante. \n Entre conversas animadas e milkshakes compartilhados, nasce um doce romance. \n Mas a vida de Marcelo guarda segredos perigosos. \n Envolvido em uma encrenca obscura, ele se vê dividido entre o amor por Sabrina e a lealdade a um passado nebuloso. \n Será que o amor de Sabrina terá força para superar os obstáculos que os separam? \n\n Em meio ao agito vibrante da década de 60, uma história de amor proibido floresce, desafiando segredos e colocando em risco tudo que Sabrina sempre sonhou.",
       },
+      {
+        id: 29,
+        title: "Kerpen Potter",
+        poster_path: "./images/filmes/29.png",
+        overview:
+          "Em um mundo onde a magia é real, Sabrina, uma jovem de onze anos, descobre que é uma feiticeira no dia de seu aniversário. Criada por seus tios maldosos na pequena cidade de Kerpen, ela sempre se sentiu deslocada e diferente. Tudo muda quando uma coruja entrega uma carta de admissão para a Academia de Magia de Hinterwald. Lá, Sabrina faz novos amigos leais, como Arthur e Lays, e encontra desafios inesperados, incluindo um sombrio feiticeiro que ameaça a paz do mundo mágico. Sabrina descobre que seus pais eram poderosos feiticeiros, mortos por esse mesmo vilão, e que ela possui um destino especial. Com coragem e determinação, ela enfrenta perigos e desvenda mistérios, enquanto aprende sobre a verdadeira força da amizade e da magia.",
+      },
+      {
+        id: 30,
+        title: "Elemental",
+        poster_path: "./images/filmes/30.png",
+        overview:
+          "Em Elementalis, cidade mágica, vivia Sabrina, água com cabelos azuis e sorriso tranquilo como o mar. \n Lá também morava Marcelo, fogo com cabelos cor de chama e espírito quente como o sol. \n Desde pequenos, se sentiam próximos, como se suas naturezas opostas se completassem. \n Mas seus pais discordavam: 'Água e fogo não combinam!'. \n Mesmo assim, Sabrina e Marcelo se encontravam em segredo, dividindo histórias, sonhos e um sentimento que crescia cada vez mais. \n Juntos, descobriram que o amor verdadeiro supera qualquer diferença. \n Com o tempo, a paixão deles aqueceu os corações das pessoas. \n Todos perceberam que a união dos elementos era a força e beleza de Elementalis. \n No final, entenderam que o amor verdadeiro não tem limites. \n Sabrina e Marcelo viveram felizes para sempre, unindo seus elementos e iluminando a cidade com a chama do amor.",
+      },
     ],
   },
   {
     title: "Séries",
-    category: "Séries",
     data: [
       {
         id: 1,
@@ -331,6 +445,13 @@ export const moviesItems = [
         poster_path: "./images/series/18.png",
         overview:
           "Sob a aparência inocente de um felino doméstico, esconde-se um predador nato. \n O gato, com suas garras afiadas e mordida potente, é mestre do disfarce e do ataque surpresa. \n No documentário 'Animais Perigosos', revelamos a verdade por trás dos ronronados e das fofuras: um caçador implacável, capaz de derrubar presas muito maiores que ele. \n Descubra os segredos da anatomia mortal do gato e as técnicas de emboscada que o tornam um dos predadores mais eficientes do planeta. \n \n Prepare-se para mudar sua visão sobre o seu bichano de estimação. \n 'Animais Perigosos': o lado selvagem dos gatos.",
+      },
+      {
+        id: 19,
+        title: "The Witch",
+        poster_path: "./images/series/19.png",
+        overview:
+          "Em um mundo devastado por conflitos e magia, Sabrina, uma poderosa feiticeira, luta para proteger seu reino de forças sombrias. \n  Criada e treinada pelos anciões da Ordem dos Magos, Sabrina domina feitiços ancestrais e habilidades de combate excepcionais. \n  Sua jornada se cruza com a de Geralt, um bruxo caçador de monstros, quando uma profecia antiga revela que ambos são a chave para restaurar o equilíbrio no mundo. \n  À medida que enfrentam criaturas sobrenaturais e inimigos humanos, Sabrina descobre segredos sobre sua própria origem que mudam tudo o que ela sabia sobre seu destino. \n  Enfrentando traições e alianças inesperadas, ela precisa encontrar forças dentro de si para combater o mal crescente que ameaça engolir tudo que ela ama. \n \n  'The Witch' é uma saga épica de coragem, magia e a luta interminável entre luz e escuridão.",
       },
     ],
   },

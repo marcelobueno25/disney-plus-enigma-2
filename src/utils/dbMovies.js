@@ -332,7 +332,7 @@ export const moviesItems = [
         title: "Love of Thrones - Coração de Fogo",
         poster_path: "./images/series/2.png",
         overview:
-          "Anos se passam e Sabrina e para sua surpresa, o ovo eclode e revela um filhote de dragão azul marrom, que ela batiza de Maya. \n Juntas, Sabrina e Maya embarcam em uma aventura pelo mundo, explorando terras desconhecidas e enfrentando desafios emocionantes.",
+          "Anos se passam e Sabrina e para sua surpresa, o ovo eclode e revela um filhote de dragão marrom, que ela batiza de Maya. \n Juntas, Sabrina e Maya embarcam em uma aventura pelo mundo, explorando terras desconhecidas e enfrentando desafios emocionantes.",
       },
       {
         id: 3,

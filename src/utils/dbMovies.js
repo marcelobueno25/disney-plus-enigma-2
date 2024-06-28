@@ -315,6 +315,20 @@ export const moviesItems = [
         overview:
           "Em Elementalis, cidade mágica, vivia Sabrina, água com cabelos azuis e sorriso tranquilo como o mar. \n Lá também morava Marcelo, fogo com cabelos cor de chama e espírito quente como o sol. \n Desde pequenos, se sentiam próximos, como se suas naturezas opostas se completassem. \n Mas seus pais discordavam: 'Água e fogo não combinam!'. \n Mesmo assim, Sabrina e Marcelo se encontravam em segredo, dividindo histórias, sonhos e um sentimento que crescia cada vez mais. \n Juntos, descobriram que o amor verdadeiro supera qualquer diferença. \n Com o tempo, a paixão deles aqueceu os corações das pessoas. \n Todos perceberam que a união dos elementos era a força e beleza de Elementalis. \n No final, entenderam que o amor verdadeiro não tem limites. \n Sabrina e Marcelo viveram felizes para sempre, unindo seus elementos e iluminando a cidade com a chama do amor.",
       },
+      {
+        id: 31,
+        title: "Sex on the Beach 2",
+        poster_path: "./images/filmes/31.png",
+        overview:
+          "Sabrina, uma garota independente e cheia de atitude, decide passar o verão em Búzios com suas amigas com a gonorreia e a lombriga. \n Entre praias paradisíacas e festas badaladas, ela se joga em romances intensos e descobre os desafios e alegrias de encontrar seu próprio caminho. \n Sol, biquínis, flertes e muita diversão nesse coming-of-age feminino, leve e envolvente!",
+      },
+      {
+        id: 32,
+        title: "Sex on the Beach 3",
+        poster_path: "./images/filmes/32.png",
+        overview:
+          "O destino entrelaça os caminhos de Marcelo e Sabrina em uma noite quente de verão em Búzios. \n Seus olhares se cruzam na pista de dança, uma faísca instantânea. \n Marcelo, com seu charme surfista e sorriso cativante, se aproxima de Sabrina, atraído por sua energia contagiante e beleza radiante. \n A conversa flui naturalmente, embalada pelo ritmo envolvente da música e pela brisa do mar. \n Eles compartilham histórias, sonhos e desejos, descobrindo uma conexão profunda e inesperada. \n Marcelo, acostumado a romances passageiros, se vê encantado pela inteligência e personalidade forte de Sabrina. \n Sabrina, por sua vez, se sente atraída pela autenticidade e bom humor de Marcelo, tão diferente dos garotos que costuma conhecer. \n A noite avança e a atração entre eles se intensifica. \n Um beijo roubado sob a luz da lua sela o início de um romance que promete ser tão intenso quanto o verão. \n Enquanto Marcelo e Sabrina se entregam à paixão, seus amigos observam com curiosidade e torcida. \n Otávio, com seu jeito brincalhão, Dolores, sempre atenta aos detalhes, e as amigas de Sabrina, \n com suas dicas e comentários divertidos, acompanham cada capítulo dessa história de amor. \n Em meio a mergulhos no mar cristalino, passeios de barco ao pôr do sol e festas animadas, Marcelo e Sabrina descobrem que o amor pode florescer nos lugares mais inesperados e que o verão é a estação perfeita para se entregar à paixão.",
+      },
     ],
   },
   {
